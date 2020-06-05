@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63662ec6-190c-404d-9c53-f86c5ea873c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-project/com/company/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final-project/com/company/Cashier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-project/com/company/FileCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final-project/com/company/FileCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-project/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final-project/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-project/com/company/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final-project/com/company/Receipt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Final-project/com/company/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Final-project/com/company/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/FileCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FileCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Ivan_Stoyanov_F90980_final_project.rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +71,7 @@
       <workItem from="1590477869426" duration="5663000" />
       <workItem from="1590648749812" duration="22663000" />
       <workItem from="1591075626090" duration="62000" />
-      <workItem from="1591253074349" duration="5971000" />
+      <workItem from="1591253074349" duration="6140000" />
     </task>
     <servers />
   </component>

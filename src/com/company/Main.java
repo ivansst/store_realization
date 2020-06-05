@@ -9,9 +9,6 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws CustomException {
-
-        //TODO Fix fileReader in FileCreator
-
         Goods goods = new Goods(123, "banana", 200, LocalDate.now());
         Goods goods1 = new Goods(124, "blueberry", 240, LocalDate.now());
         Goods goods2 = new Goods(125, "apple", 260, LocalDate.now());
@@ -28,16 +25,20 @@ public class Main {
         store.addToStorage(goods, 10);
         store.addToStorage(goods1, 5);
         store.addToStorage(goods2, 3);
+
         ShoppingCart cart = new ShoppingCart(store);
         ShoppingCart cart2 = new ShoppingCart(store);
         //ShoppingCart cart3 = new ShoppingCart(store);
+
         cart.addToShoppingCart(goods, 5);
         cart2.addToShoppingCart(goods1, 3);
         cart2.addToShoppingCart(goods2, 3);
         //cart3.addToShoppingCart(goods2, 5);
+
         store.purchase(cart, "Stoyan");
         store.purchase(cart2, "Gosho");
         //store.purchase(cart3, "Ivan");
+
         store.getStoreTotal();
         store.getIssuedReceipts();
 
