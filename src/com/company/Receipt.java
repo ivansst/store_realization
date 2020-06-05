@@ -1,6 +1,5 @@
 package com.company;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -39,9 +38,8 @@ public class Receipt {
     }
 
     public void generateReceipt(){
-        FileCreator file = new FileCreator("D:", id);
+        FileCreator file = new FileCreator(id);
         file.createFile();
         file.writeToFile(dateTime, getCashier(), goods, getTotal());
-        file.readFromFile();
     }
 }

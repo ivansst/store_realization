@@ -14,7 +14,7 @@ public class Cashier {
     }
 
     public String getFullName(){
-        return this.firstName + this.lastName;
+        return this.firstName + " " + this.lastName;
     }
 
     public int getId(){

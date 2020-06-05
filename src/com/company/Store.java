@@ -11,14 +11,14 @@ public class Store {
     private static double storeTotal = 0;
     private int randomNumberForCashier;
 
-    public Store(List<Goods> goods, List<Cashier> cashiers, int issuedReceipts) {
+    public Store(List<Goods> goods, List<Cashier> cashiers) {
         this.goods = goods;
         this.cashiers = cashiers;
         this.issuedReceipts = issuedReceipts;
         randomNumberForCashier = new Random().nextInt(cashiers.size());
     }
 
-    public Store(List<Cashier> cashiers, int issuedReceipts){
+    public Store(List<Cashier> cashiers){
         this.cashiers = cashiers;
         this.issuedReceipts = issuedReceipts;
         this.goods = new ArrayList<>();
@@ -52,6 +52,11 @@ public class Store {
         register.start();
         cart.printShoppingCart();
         addToStoreTotal(cart.getItems());
+        issuedReceipts++;
+    }
+
+    public void getIssuedReceipts(){
+        System.out.println("The number of issued receipts is " + this.issuedReceipts);
     }
 
     public void getStoreTotal(){

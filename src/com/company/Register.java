@@ -15,13 +15,9 @@ public class Register implements Runnable {
         return currentCashier;
     }
 
-    public void newReceipt(){
-       Receipt receipt = new Receipt(getCurrentCashier(), goods);
-       receipt.generateReceipt();
-    }
-
     @Override
     public void run() {
-        newReceipt();
+        Receipt receipt = new Receipt(getCurrentCashier(), goods);
+        receipt.generateReceipt();
     }
 }

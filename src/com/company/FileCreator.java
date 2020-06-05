@@ -2,21 +2,19 @@ package com.company;
 
 import java.io.*;
 import java.util.List;
-import java.util.Scanner;
 
 public class FileCreator {
-    private String finalName;
     private String fileName;
+    private String finalName;
 
-    public FileCreator(String filePath, int fileName) {
+    public FileCreator(int fileName) {
         this.fileName = String.valueOf(fileName);
-        this.finalName = filePath + "\\" +  (fileName + ".txt");
+        finalName = fileName + ".txt";
     }
 
     public void createFile(){
         try {
             var myObj = new File(finalName);
-
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
             } else {
@@ -44,20 +42,8 @@ public class FileCreator {
                                 "Your grocery list contains " + goodsString + "\n" +
                                 "The total amount is " + total + " BGN");
 
-            System.out.println("Successfully wrote to the file.");
-
         } catch (IOException e) {
-            System.out.println("An error occurred.");
+            System.out.println("Could not create file!");
         }
-    }
-
-    //TODO Fix file reader
-    public void readFromFile(){
-        Scanner fileScanner = new Scanner(finalName);
-        String data = "";
-
-        while(fileScanner.hasNextLine())
-            data = fileScanner.nextLine();
-            System.out.println(data);
     }
 }
