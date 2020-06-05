@@ -1,5 +1,0 @@
-This receipt's number is 1
-Today's date is 05/06/2020 16:22:42
-Current working cashier is Ivan Stoyanov
-Your grocery list contains banana, banana, banana, banana, banana, banana, banana, banana, banana, banana, blueberry, blueberry, blueberry, blueberry, blueberry, apple, apple, apple
-The total amount is 3980.0 BGN
