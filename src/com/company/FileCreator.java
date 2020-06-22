@@ -29,7 +29,6 @@ public class FileCreator {
     public void writeToFile(String dateTime, String cashier, List<Goods> goods, double total){
         try(FileWriter myWriter = new FileWriter(finalName)) {
             StringBuilder goodsString = new StringBuilder();
-
             for (Goods good: goods) {
                 if(goodsString.length() > 0)
                     goodsString.append(", ");
